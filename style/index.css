@@ -1,1 +1,29 @@
 /* Add CSS styling here */
+p {
+    font-family: Oswald;
+}
+
+
+a {
+    padding: 11px;
+    border: solid 1px;
+    background-color: pink;
+
+}
+
+a:hover {
+    background-color:white;
+}
+
+h1,h2,nav {
+    text-align: center;
+    font-family: Oswald;
+}
+
+h1,h2 {
+    padding-bottom:5px;
+}
+
+h2 {
+    padding-top:5px;
+}
