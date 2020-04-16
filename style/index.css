@@ -1,1 +1,222 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Font for the site*/
+body {
+  font-family: Oswald;
+  background-color: #ffe5ab;
+}
+/*-----------------------------------*/
+h1,
+h2 {
+  text-align: center;
+}
+
+/*---header---*/
+h1 {
+  font-size: 40px;
+  margin: 30px 5px 0 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+header p {
+  margin: 25px;
+}
+
+a {
+  color: black;
+}
+
+/*---Nav Bar---*/
+
+ul.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+  padding: 10px 20px;
+}
+
+ul.navlist li a {
+  text-decoration: none;
+  border: 1px black solid;
+  background-color: #3c9fc0;
+  padding: 5px 15px;
+}
+
+ul.navlist li a:hover {
+  background-color: #ef476f;
+  padding: 10px 30px;
+}
+
+/*---Bot Area---*/
+
+section.bot {
+  display: flex;
+}
+
+section.bot img {
+  display: flex;
+  padding: 20px 5px;
+}
+
+section.bot p {
+  display: flex;
+  align-items: center;
+  flex-basis: 10%;
+  padding-left: 100px;
+}
+
+/*---Footer Area----*/
+footer {
+  padding: 5%;
+  background-color: #ef476f;
+  text-align: center;
+}
+
+button {
+  background-color: #3c9fc0;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  padding: 20px 60px;
+}
